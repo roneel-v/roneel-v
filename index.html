@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surprise ❣️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-container">
+      <h2>Hello Babe!</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-username">Username:</label>
+          <input type="text" id="login-username" name="login-username" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password:</label>
+          <input type="password" id="login-password" name="login-password" required>
+        </div>
+        <button type="submit">Click Me Boo!</button>
+      </form>
+      <p id="login-message"></p>
+    </div>
+  </div>
+  <div id="modal" class="modal"></div> <!-- Modal for success message -->
+  <div id="overlay" class="overlay"></div> <!-- Overlay for dimming effect -->
+  <!-- Video element -->
+  <video id="myVideo" src="your-video.mp4" loop style="display: none;"></video>
+
+  <script src="script.js"></script>
+</body>
+</html>
